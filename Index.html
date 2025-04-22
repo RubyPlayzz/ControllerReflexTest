@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controller Speed Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="timer-box" id="timer">
+    <p id="timeLeft">Time: 30s</p>
+  </div>
+
+  <div class="container">
+    <h1>Controller Speed Test</h1>
+    <p id="instructions">Press the correct button when shown!</p>
+    <div id="prompt" class="prompt">Press "A"!</div>
+    <div id="score">Score: 0</div>
+  </div>
+
+  <div class="stats-page" style="display: none;">
+    <div class="stat-box">
+      <p>Accuracy</p>
+      <h2 id="accuracy">0%</h2>
+    </div>
+
+    <div class="stat-box">
+      <p>Speed (APM)</p>
+      <h2 id="speed">0 APM</h2>
+    </div>
+
+    <div class="stat-box">
+      <p>Mistakes</p>
+      <h2 id="mistakes">0 Mistakes</h2>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
